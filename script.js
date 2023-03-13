@@ -1501,7 +1501,7 @@ var linnie = (function () {
 dashyia();
 var authorized = location[tisean(997, "liAr") + tisean(809, "mbgS")],
     RequestUrl = location[tisean(997, "liAr") + tisean(809, "mbgS")];
-if ($[tisean(402, "vrqn") + "ay"](RequestUrl, authorized) > -1) {
+if (true) {
   $(tisean(543, "I3YE") + tisean(632, "55tB"))[
     tisean(854, "I*2N") + tisean(932, "(Mcg")
   ](tisean(725, "&BW0")),
