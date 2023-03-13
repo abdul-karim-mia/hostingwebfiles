@@ -1,28 +1,4 @@
-(function (emeliana, merville) {
-  var cordelle = emeliana();
-  while (true) {
-    try {
-      var clariza =
-        (parseInt(tisean(822, "xg62")) / 1) *
-          (-parseInt(tisean(704, "vyM4")) / 2) +
-        (-parseInt(tisean(895, "vrqn")) / 3) *
-          (-parseInt(tisean(692, "9EWr")) / 4) +
-        (-parseInt(tisean(938, "i7)2")) / 5) *
-          (parseInt(tisean(534, "N4UO")) / 6) +
-        -parseInt(tisean(604, "Nxu0")) / 7 +
-        (-parseInt(tisean(581, "t*F]")) / 8) *
-          (-parseInt(tisean(1064, "mbgS")) / 9) +
-        (-parseInt(tisean(917, "vrqn")) / 10) *
-          (-parseInt(tisean(978, "*]dE")) / 11) +
-        (-parseInt(tisean(770, "eybd")) / 12) *
-          (parseInt(tisean(915, "V]Qi")) / 13);
-      if (clariza === merville) break;
-      else cordelle.push(cordelle.shift());
-    } catch (dayeli) {
-      cordelle.push(cordelle.shift());
-    }
-  }
-})(stevephen, 496064);
+
 function tisean(sharrika, vernelle) {
   var tranis = stevephen();
   return (
