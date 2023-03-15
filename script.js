@@ -29,6 +29,35 @@ var intervalId = setInterval(function() {
   i = (i + 1) % words.length;
 }, 3000);
 
+// get the header element
+const header = document.querySelector('.header');
+
+// get the initial offset position of the header
+const headerOffsetTop = header.offsetTop;
+
+// add an event listener for scrolling
+window.addEventListener('scroll', () => {
+  // get the current scroll position
+  const scrollPosition = window.scrollY;
+
+  // check if the user has scrolled beyond the initial offset position of the header
+  if (scrollPosition >= headerOffsetTop) {
+    // if so, add the "sticky" class to the header
+    header.classList.add('sticky');
+  } else {
+    // if not, remove the "sticky" class from the header
+    header.classList.remove('sticky');
+  }
+
+  // check if the user has scrolled back to the top of the page
+  if (scrollPosition === 0) {
+    // if so, remove the "sticky" class from the header
+    header.classList.remove('sticky');
+  }
+});
+
+
+
 function elverta() {
   const e = [
     "forEa",
