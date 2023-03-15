@@ -1,38 +1,4 @@
 
-var targetId = "HTML2";
-
-var i = 0;
-var intervalId = setInterval(function() {
-  var targetElement = document.getElementById(targetId);
-  var spanElements = targetElement.getElementsByTagName("span");
-  var oldText = spanElements[1].textContent;
-  var randomColor = Math.floor(Math.random()*16777215).toString(16);
-  spanElements[1].textContent = words[i];
-  spanElements[1].style.color = "#" + randomColor;
-  spanElements[1].style.opacity = "0";
-  var fadeInterval = setInterval(function() {
-    var opacity = parseFloat(spanElements[1].style.opacity);
-    if (opacity < 1) {
-      opacity += 0.1;
-      spanElements[1].style.opacity = opacity.toString();
-    } else {
-      clearInterval(fadeInterval);
-    }
-  }, 100);
-  var fadeOutInterval = setInterval(function() {
-    var opacity = parseFloat(spanElements[0].style.opacity);
-    if (opacity > 0) {
-      opacity -= 0.1;
-      spanElements[0].style.opacity = opacity.toString();
-    } else {
-      clearInterval(fadeOutInterval);
-      spanElements[0].textContent = oldText;
-      spanElements[0].style.opacity = "1";
-    }
-  }, 100);
-  i = (i + 1) % words.length;
-}, 1000);
-
 
 function elverta() {
   const e = [
