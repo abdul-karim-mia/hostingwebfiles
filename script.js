@@ -12,7 +12,7 @@ var intervalId = setInterval(function() {
     } else {
       clearInterval(fadeoutterval);
     }
-  }, 100);
+  }, 50);
   spanElements[1].textContent = words[i];
   var randomColor = Math.floor(Math.random()*16777215).toString(16);
   spanElements[1].style.color = "#" + randomColor;
@@ -25,7 +25,7 @@ var intervalId = setInterval(function() {
     } else {
       clearInterval(fadeInterval);
     }
-  }, 100);
+  }, 50);
   i = (i + 1) % words.length;
 }, 3000);
 
