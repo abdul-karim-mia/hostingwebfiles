@@ -223,28 +223,3 @@ accordionContent[carylon(155) + "ch"]((e, r) => {
     }
   );
 });
-// Get all elements with the class "buy_now"
-const buyNowButtons = document.querySelectorAll('.buy_now');
-
-// Define a function to load the Gumroad script
-function loadGumroadScript() {
-  const script = document.createElement('script');
-  script.src = 'https://gumroad.com/js/gumroad.js';
-  document.head.appendChild(script);
-}
-
-// Define a function to handle the click event
-function handleBuyNowClick() {
-  // Load the Gumroad script
-  loadGumroadScript();
-
-  // Remove the event listener to prevent multiple script loads
-  buyNowButtons.forEach(button => {
-    button.removeEventListener('click', handleBuyNowClick);
-  });
-}
-
-// Attach a click event listener to each "buy_now" button
-buyNowButtons.forEach(button => {
-  button.addEventListener('click', handleBuyNowClick);
-});
