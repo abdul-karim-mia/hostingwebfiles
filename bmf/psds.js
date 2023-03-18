@@ -25,6 +25,7 @@ gapi.load('client', function() {
         div.setAttribute('data-aos-duration', '1000');
         // Create the <img> element
         var aa = document.createElement('a');
+        aa.setAttribute('href', thumbnailUrl);
         var img = document.createElement('img');
         img.classList.add('psdThumb');
         img.setAttribute('alt', name);
