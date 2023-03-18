@@ -1,4 +1,4 @@
-var targetId = "HTML2";
+try{var targetId = "HTML2";
 
 var i = 0;
 var intervalId = setInterval(function() {
@@ -28,7 +28,8 @@ var intervalId = setInterval(function() {
   }, 50);
   i = (i + 1) % words.length;
 }, 3000);
-
+   }catch(w){}
+try{
 // get the header element
 const header = document.querySelector('.header');
 
@@ -55,7 +56,7 @@ window.addEventListener('scroll', () => {
     header.classList.remove('sticky');
   }
 });
-
+}catch(w){}
 
 
 function elverta() {
@@ -223,6 +224,7 @@ accordionContent[carylon(155) + "ch"]((e, r) => {
     }
   );
 });
+try{
 // Get the image elements
 var image2 = document.getElementById("Image2");
 var image3 = document.getElementById("Image3");
@@ -248,6 +250,7 @@ image4.addEventListener("click", function() {
 image5.addEventListener("click", function() {
   lity('//www.youtube.com/watch?v=' + videoIds[3]);
 });
+  }catch(w){}
 // Get all <a> elements on the page
 const linksYt = document.getElementsByTagName("a");
 
