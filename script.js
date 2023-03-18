@@ -223,3 +223,29 @@ accordionContent[carylon(155) + "ch"]((e, r) => {
     }
   );
 });
+// Get the image elements
+var image2 = document.getElementById("Image2_img");
+var image3 = document.getElementById("Image3_img");
+var image4 = document.getElementById("Image4_img");
+var image5 = document.getElementById("Image5_img");
+
+// Create an array of YouTube video IDs
+var videoIds = ["CqQ7h5nGqjs","CqQ7h5nGqjs","CqQ7h5nGqjs","CqQ7h5nGqjs"];
+
+// Add event listeners to each image element
+image2.addEventListener("click", function() {
+  lity('//www.youtube.com/watch?v=' + videoIds[0]);
+});
+
+image3.addEventListener("click", function() {
+  lity('//www.youtube.com/watch?v=' + videoIds[1]);
+});
+
+image4.addEventListener("click", function() {
+  lity('//www.youtube.com/watch?v=' + videoIds[2]);
+});
+
+image5.addEventListener("click", function() {
+  lity('//www.youtube.com/watch?v=' + videoIds[3]);
+});
+
