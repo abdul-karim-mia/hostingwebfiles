@@ -24,18 +24,18 @@ gapi.load('client', function() {
         div.setAttribute('data-aos', 'fade-up');
         div.setAttribute('data-aos-duration', '1000');
         // Create the <img> element
-        var aa = document.createElement('a');
-        aa.setAttribute('href', thumbnailUrl);
+       // var aa = document.createElement('a');
+        //aa.setAttribute('href', thumbnailUrl);
         var img = document.createElement('img');
         img.classList.add('psdThumb');
         img.setAttribute('alt', name);
         img.setAttribute('title', name);
         img.setAttribute('src', thumbnailUrl);
-        aa.setAttribute('data-lightbox', name);
+       // aa.setAttribute('data-lightbox', name);
         //img.setAttribute('data-lity','');
         img.setAttribute('loading','lazy')
-        aa.appendChild(img);
-        div.appendChild(aa);
+        //aa.appendChild(img);
+        div.appendChild(img);
         // Create the <button> element
         var button = document.createElement('button');
         button.classList.add('dBt');
