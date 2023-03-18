@@ -17,6 +17,7 @@ gapi.load('client', function() {
         var url = file.webContentLink;
         var name = file.name;
         var thumbnailUrl = file.thumbnailLink;
+        if(!thumbnailUrl)thumbnailUrl="https://img.freepik.com/free-vector/no-data-concept-illustration_114360-536.jpg";
         // Create the <div> element
         var div = document.createElement('div');
         div.classList.add('psd');
