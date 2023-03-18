@@ -29,6 +29,7 @@ gapi.load('client', function() {
         img.setAttribute('alt', name);
         img.setAttribute('title', name);
         img.setAttribute('src', thumbnailUrl);
+        img.setAttribute('data-lightbox', name);
         //img.setAttribute('data-lity','');
         img.setAttribute('loading','lazy')
         div.appendChild(img);
