@@ -1,62 +1,65 @@
-try{var targetId = "HTML2";
+try {
+  var targetId = "HTML2";
 
-var i = 0;
-var intervalId = setInterval(function() {
-  var targetElement = document.getElementById(targetId);
-  var spanElements = targetElement.getElementsByTagName("span");
-  var fadeoutterval = setInterval(function() {
-    var opacityy = parseFloat(spanElements[1].style.opacity);
-    if (opacityy > 0) {
-      opacityy -= 0.1;
-      spanElements[1].style.opacity = opacityy.toString();
-    } else {
-      clearInterval(fadeoutterval);
+  var i = 0;
+  var intervalId = setInterval(function () {
+    var targetElement = document.getElementById(targetId);
+    if (targetElement && targetElement !== null && targetElement !== undefined) {
+      var spanElements = targetElement.getElementsByTagName("span");
+      var fadeoutterval = setInterval(function () {
+        var opacityy = parseFloat(spanElements[1].style.opacity);
+        if (opacityy > 0) {
+          opacityy -= 0.1;
+          spanElements[1].style.opacity = opacityy.toString();
+        } else {
+          clearInterval(fadeoutterval);
+        }
+      }, 50);
+      spanElements[1].textContent = words[i];
+      var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+      spanElements[1].style.color = "#" + randomColor;
+      spanElements[1].style.opacity = "0";
+      var fadeInterval = setInterval(function () {
+        var opacity = parseFloat(spanElements[1].style.opacity);
+        if (opacity < 1) {
+          opacity += 0.1;
+          spanElements[1].style.opacity = opacity.toString();
+        } else {
+          clearInterval(fadeInterval);
+        }
+      }, 50);
+      i = (i + 1) % words.length;
     }
-  }, 50);
-  spanElements[1].textContent = words[i];
-  var randomColor = Math.floor(Math.random()*16777215).toString(16);
-  spanElements[1].style.color = "#" + randomColor;
-  spanElements[1].style.opacity = "0";
-  var fadeInterval = setInterval(function() {
-    var opacity = parseFloat(spanElements[1].style.opacity);
-    if (opacity < 1) {
-      opacity += 0.1;
-      spanElements[1].style.opacity = opacity.toString();
+  }, 3000);
+} catch (w) { }
+try {
+  // get the header element
+  const header = document.querySelector('.header');
+
+  // get the initial offset position of the header
+  const headerOffsetTop = header.offsetTop;
+
+  // add an event listener for scrolling
+  window.addEventListener('scroll', () => {
+    // get the current scroll position
+    const scrollPosition = window.scrollY;
+
+    // check if the user has scrolled beyond the initial offset position of the header
+    if (scrollPosition >= headerOffsetTop) {
+      // if so, add the "sticky" class to the header
+      header.classList.add('sticky');
     } else {
-      clearInterval(fadeInterval);
+      // if not, remove the "sticky" class from the header
+      header.classList.remove('sticky');
     }
-  }, 50);
-  i = (i + 1) % words.length;
-}, 3000);
-   }catch(w){}
-try{
-// get the header element
-const header = document.querySelector('.header');
 
-// get the initial offset position of the header
-const headerOffsetTop = header.offsetTop;
-
-// add an event listener for scrolling
-window.addEventListener('scroll', () => {
-  // get the current scroll position
-  const scrollPosition = window.scrollY;
-
-  // check if the user has scrolled beyond the initial offset position of the header
-  if (scrollPosition >= headerOffsetTop) {
-    // if so, add the "sticky" class to the header
-    header.classList.add('sticky');
-  } else {
-    // if not, remove the "sticky" class from the header
-    header.classList.remove('sticky');
-  }
-
-  // check if the user has scrolled back to the top of the page
-  if (scrollPosition === 0) {
-    // if so, remove the "sticky" class from the header
-    header.classList.remove('sticky');
-  }
-});
-}catch(w){}
+    // check if the user has scrolled back to the top of the page
+    if (scrollPosition === 0) {
+      // if so, remove the "sticky" class from the header
+      header.classList.remove('sticky');
+    }
+  });
+} catch (w) { }
 
 
 function elverta() {
@@ -129,17 +132,17 @@ function jykeria(e, r) {
 (function (e, r) {
   const t = jykeria,
     i = elverta();
-  for (;;)
+  for (; ;)
     try {
       if (
         359696 ===
         (-parseInt(t(177)) / 1) * (parseInt(t(198)) / 2) +
-          -parseInt(t(202)) / 3 +
-          (parseInt(t(181)) / 4) * (parseInt(t(168)) / 5) +
-          -parseInt(t(176)) / 6 +
-          (parseInt(t(175)) / 7) * (parseInt(t(199)) / 8) +
-          parseInt(t(192)) / 9 +
-          (-parseInt(t(161)) / 10) * (parseInt(t(159)) / 11)
+        -parseInt(t(202)) / 3 +
+        (parseInt(t(181)) / 4) * (parseInt(t(168)) / 5) +
+        -parseInt(t(176)) / 6 +
+        (parseInt(t(175)) / 7) * (parseInt(t(199)) / 8) +
+        parseInt(t(192)) / 9 +
+        (-parseInt(t(161)) / 10) * (parseInt(t(159)) / 11)
       )
         break;
       i.push(i.shift());
@@ -224,33 +227,33 @@ accordionContent[carylon(155) + "ch"]((e, r) => {
     }
   );
 });
-try{
-// Get the image elements
-var image2 = document.getElementById("Image2");
-var image3 = document.getElementById("Image3");
-var image4 = document.getElementById("Image4");
-var image5 = document.getElementById("Image5");
+try {
+  // Get the image elements
+  var image2 = document.getElementById("Image2");
+  var image3 = document.getElementById("Image3");
+  var image4 = document.getElementById("Image4");
+  var image5 = document.getElementById("Image5");
 
-// Create an array of YouTube video IDs
-var videoIds = ["CqQ7h5nGqjs","CqQ7h5nGqjs","CqQ7h5nGqjs","CqQ7h5nGqjs"];
+  // Create an array of YouTube video IDs
+  var videoIds = ["CqQ7h5nGqjs", "CqQ7h5nGqjs", "CqQ7h5nGqjs", "CqQ7h5nGqjs"];
 
-// Add event listeners to each image element
-image2.addEventListener("click", function() {
-  lity('//www.youtube.com/watch?v=' + videoIds[0]);
-});
+  // Add event listeners to each image element
+  image2.addEventListener("click", function () {
+    lity('//www.youtube.com/watch?v=' + videoIds[0]);
+  });
 
-image3.addEventListener("click", function() {
-  lity('//www.youtube.com/watch?v=' + videoIds[1]);
-});
+  image3.addEventListener("click", function () {
+    lity('//www.youtube.com/watch?v=' + videoIds[1]);
+  });
 
-image4.addEventListener("click", function() {
-  lity('//www.youtube.com/watch?v=' + videoIds[2]);
-});
+  image4.addEventListener("click", function () {
+    lity('//www.youtube.com/watch?v=' + videoIds[2]);
+  });
 
-image5.addEventListener("click", function() {
-  lity('//www.youtube.com/watch?v=' + videoIds[3]);
-});
-  }catch(w){}
+  image5.addEventListener("click", function () {
+    lity('//www.youtube.com/watch?v=' + videoIds[3]);
+  });
+} catch (w) { }
 // Get all <a> elements on the page
 const linksYt = document.getElementsByTagName("a");
 
@@ -260,7 +263,7 @@ for (let i = 0; i < linksYt.length; i++) {
 
   // Check if the <a> element's href contains "youtube.com" or "youtu.be"
   if (linkyT.href.includes("youtube.com") || linkyT.href.includes("youtu.be")) {
-    
+
     // Add the "data-lity" attribute to the <a> element
     linkyT.setAttribute("data-lity", "");
   }
