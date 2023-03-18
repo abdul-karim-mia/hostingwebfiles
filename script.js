@@ -248,4 +248,18 @@ image4.addEventListener("click", function() {
 image5.addEventListener("click", function() {
   lity('//www.youtube.com/watch?v=' + videoIds[3]);
 });
+// Get all <a> elements on the page
+const links = document.getElementsByTagName("a");
+
+// Loop through each <a> element
+for (let i = 0; i < links.length; i++) {
+  const link = links[i];
+
+  // Check if the <a> element's href contains "youtube.com" or "youtu.be"
+  if (link.href.includes("youtube.com") || link.href.includes("youtu.be")) {
+    
+    // Add the "data-lity" attribute to the <a> element
+    link.setAttribute("data-lity", "");
+  }
+}
 
