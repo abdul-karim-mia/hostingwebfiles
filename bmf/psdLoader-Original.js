@@ -17,7 +17,7 @@ gapi.load('client', function() {
         var url = file.webContentLink;
         var name = file.name;
         var thumbnailUrl = file.thumbnailLink;
-        if(!thumbnailUrl)thumbnailUrl="https://img.freepik.com/free-vector/no-data-concept-illustration_114360-536.jpg";
+        if(!thumbnailUrl)thumbnailUrl="https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
         // Create the <div> element
         var div = document.createElement('div');
         div.classList.add('psd');
@@ -29,7 +29,7 @@ gapi.load('client', function() {
         img.setAttribute('alt', name);
         img.setAttribute('title', name);
         img.setAttribute('src', thumbnailUrl);
-        img.setAttribute('data-lity','');
+        //img.setAttribute('data-lity','');
         img.setAttribute('loading','lazy')
         div.appendChild(img);
         // Create the <button> element
