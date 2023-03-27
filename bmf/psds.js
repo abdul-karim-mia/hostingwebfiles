@@ -16,6 +16,7 @@ gapi.load('client', function() {
         var file = files[i];
         var url = file.webContentLink;
         var name = file.name;
+        var placeHolder="https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/Bulk%20mockups%20filler%20loading%20placeholder.gif"
         var thumbnailUrl = file.thumbnailLink;
         if(!thumbnailUrl)thumbnailUrl="https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
         // Create the <div> element
@@ -30,7 +31,9 @@ gapi.load('client', function() {
         img.classList.add('psdThumb');
         img.setAttribute('alt', name);
         img.setAttribute('title', name);
-        img.setAttribute('src', thumbnailUrl);
+        img.setAttribute('src', placeHolder);
+        img.setAttribute('data-src', thumbnailUrl);
+        img.setAttribute('onload', this.src=this.getAttribute('data-src'););
        // aa.setAttribute('data-lightbox', name);
         //img.setAttribute('data-lity','');
         img.setAttribute('loading','lazy')
