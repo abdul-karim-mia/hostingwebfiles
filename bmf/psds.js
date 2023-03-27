@@ -33,7 +33,7 @@ gapi.load('client', function() {
         img.setAttribute('title', name);
         img.setAttribute('src', placeHolder);
         img.setAttribute('data-src', thumbnailUrl);
-        img.setAttribute('onload', this.src=this.getAttribute('data-src'););
+        img.setAttribute('onload', "this.src=this.getAttribute('data-src');");
        // aa.setAttribute('data-lightbox', name);
         //img.setAttribute('data-lity','');
         img.setAttribute('loading','lazy')
