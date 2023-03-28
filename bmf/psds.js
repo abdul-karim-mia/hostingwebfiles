@@ -55,11 +55,30 @@ gapi.load('client', function() {
   });
 });
 
+
+// lazy load for all image one by one
 var psdDiv = document.getElementsByClassName("psd");
 if (psdDiv.length > 0) {
-  var imgElemnt = psdDiv[0].getElementsByTagName("img");
-  document.addEventListener("load", function() {
-    imgElemnt[0].src = imgElemnt[0].getAttribute("data-src");
-  });
+  var imgElements = psdDiv[0].getElementsByTagName("img");
+  
+  // Load the first image
+  loadNextImage(0, imgElements);
 }
+
+function loadNextImage(index, images) {
+  // Exit function if all images have been loaded
+  if (index >= images.length) {
+    return;
+  }
+
+  // Load the next image and update the "src" attribute when it's loaded
+  var img = new Image();
+  img.onload = function() {
+    images[index].src = img.src;
+    // Load the next image after this one has loaded
+    loadNextImage(index + 1, images);
+  };
+  img.src = images[index].getAttribute("data-src");
+}
+
 
