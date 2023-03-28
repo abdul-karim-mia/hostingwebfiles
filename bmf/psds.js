@@ -58,24 +58,72 @@ gapi.load('client', function () {
         // TODO: Append the <div> element to your web page
       }
       ///////////////////////////////////////////////////////
-      var psdDivs = document.getElementsByClassName("psd");
+       // Get all the "psd" div elements on the page
+    var psdDivs = document.getElementsByClassName("psd");
 
-      if (psdDivs.length > 0) {
-        // Loop over each "psdDiv" element
-        for (var i = 0; i < psdDivs.length; i++) {
-          var imgElements = psdDivs[i].getElementsByTagName("img");
+    // Create an array of image elements from the "psd" divs
+    var images = [];
+    for (var i = 0; i < psdDivs.length; i++) {
+      var imgElemnt = psdDivs[i].getElementsByTagName("img")[0];
+      images.push(imgElemnt);
+    }
 
-          // Load the images in each "psdDiv" one by one
-          for (var j = 0; j < imgElements.length; j++) {
-            loadNextImage(0, [imgElements[j]]);
-          }
-        }
+    // Load the first image and then load the rest one by one
+    loadNextImage(0, images);
+
+    function loadNextImage(index, images) {
+      // Exit function if all images have been loaded
+      if (index >= images.length) {
+        return;
       }
-      function loadNextImage(index, images) {
-        // Exit function if all images have been loaded
-        if (index >= images.length) {
-          return;
+
+      // Load the next image and update the "src" attribute when it's loaded
+      var img = new Image();
+      img.onload = function() {
+        // Set the "src" attribute of the current image to the loaded image's source
+        images[index].setAttribute("src", img.src);
+
+        // Fade in the current image when it's loaded
+        fadeOutImage(images[index], 1);
+
+        // Load the next image after this one has loaded
+        loadNextImage(index + 1, images);
+      };
+      img.src = images[index].getAttribute("data-src");
+      //fadeInImage(images[index], 0);
+    }
+
+    function fadeInImage(element, opacity) {
+      // Set the initial opacity to 0
+      //element.style.opacity = 0;
+
+      // Increase the opacity gradually using a loop
+      var intervalID = setInterval(function() {
+        // Increase the opacity by 0.1 on each loop iteration
+        opacity += 0.1;
+        element.style.opacity = opacity;
+
+        // Exit loop when the opacity reaches 1
+        if (opacity >= 1) {
+          clearInterval(intervalID);
         }
+      }, 10); // 50ms delay between loop iterations
+    }
+    function fadeOutImage(element, opacity) {
+      // Set the initial opacity to 0
+      //element.style.opacity = 0;
+
+      // Increase the opacity gradually using a loop
+      var intervalID = setInterval(function() {
+        // Increase the opacity by 0.1 on each loop iteration
+        opacity -= 0.1;
+        element.style.opacity = opacity;
+
+        // Exit loop when the opacity reaches 1
+        if (opacity <= 0) {
+          clearInterval(intervalID);
+        }
+<<<<<<< Updated upstream
 
         // Load the next image and update the "src" attribute when it's loaded
         var img = new Image();
@@ -108,6 +156,10 @@ gapi.load('client', function () {
         }, 10); // 50ms delay between loop iterations
       }
 
+=======
+      }, 1000); // 50ms delay between loop iterations
+    }
+>>>>>>> Stashed changes
       ///////////////////////////////////////////////////////
     });
   });
