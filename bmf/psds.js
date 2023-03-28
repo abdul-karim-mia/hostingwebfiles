@@ -74,6 +74,8 @@ gapi.load('client', function () {
         // Load the next image and update the "src" attribute when it's loaded
         var img = new Image();
         img.onload = function () {
+          images[index].setAttribute("src", img.src);
+
           // Fade in the current image when it's loaded
           fadeInImage(images[index], 0);
 
