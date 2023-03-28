@@ -99,7 +99,7 @@ gapi.load('client', function () {
           if (opacity >= 1) {
             clearInterval(intervalID);
           }
-        }, 100); // 50ms delay between loop iterations
+        }, 10); // 50ms delay between loop iterations
       }
 
       ///////////////////////////////////////////////////////
