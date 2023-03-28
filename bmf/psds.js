@@ -51,12 +51,7 @@ gapi.load('client', function() {
         document.querySelector('.max-width').appendChild(div);
         // TODO: Append the <div> element to your web page
       }
-    });
-  });
-});
-
-
-// lazy load for all image one by one
+      // lazy load for all image one by one
 var psdDivs = document.getElementsByClassName("psd");
 
 if (psdDivs.length > 0) {
@@ -82,5 +77,11 @@ function loadNextImage(index, images) {
   };
   img.src = images[index].getAttribute("data-src");
 }
+
+    });
+  });
+});
+
+
 
 
