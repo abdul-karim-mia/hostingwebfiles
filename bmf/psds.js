@@ -2,7 +2,7 @@
 gapi.load('client', function () {
   // Initialize the API client with your API key
   gapi.client.init({
-    apiKey: 'YOUR_API_KEY',
+    apiKey: 'AIzaSyDC0_hBFv3L8057WG-zqygdMJH4w1Hq9hs',
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest']
   }).then(function () {
     // Retrieve the file metadata for PSD files in the public folder
