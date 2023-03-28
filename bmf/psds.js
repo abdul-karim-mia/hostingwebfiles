@@ -51,33 +51,49 @@ gapi.load('client', function() {
         document.querySelector('.max-width').appendChild(div);
         // TODO: Append the <div> element to your web page
       }
-      // lazy load for all image one by one
-var psdDivs = document.getElementsByClassName("psd");
+      ///////////////////////////////////////////////////////
+        var psdDivs = document.getElementsByClassName("psd");
 
-if (psdDivs.length > 0) {
-  // Load the images in each "psdDiv" one by one
-  for (var i = 0; i < psdDivs.length; i++) {
-    var img = psdDivs[i].getElementsByTagName("img")[0];
-    loadNextImage(0, [img]);
-  }
-}
+        if (psdDivs.length > 0) {
+        // Loop over each "psdDiv" element
+        for (var i = 0; i < psdDivs.length; i++) {
+          var imgElements = psdDivs[i].getElementsByTagName("img");
 
-function loadNextImage(index, images) {
-  // Exit function if all images have been loaded
-  if (index >= images.length) {
-    return;
-  }
+          // Load the images in each "psdDiv" one by one
+          for (var j = 0; j < imgElements.length; j++) {
+            loadNextImage(0, [imgElements[j]]);
+          }
+        }
+        }
+        function loadNextImage(index, images) {
+          // Exit function if all images have been loaded
+          if (index >= images.length) {
+            return;
+          }
 
-  // Load the next image and update the "src" attribute when it's loaded
-  var img = new Image();
-  img.onload = function() {
-    images[index].src = img.src;
-    // Load the next image after this one has loaded
-    loadNextImage(index + 1, images);
-  };
-  img.src = images[index].getAttribute("data-src");
-}
+          // Load the next image and update the "src" attribute when it's loaded
+          var img = new Image();
+          img.onload = function() {
+            // Add the "transition" class to the current image
+            images[index].classList.add("transition");
 
+            // Remove the "transition" class from the previous image
+            if (index > 0) {
+              images[index - 1].classList.remove("transition");
+            }
+
+            // Update the "src" attribute of the current image
+            images[index].src = img.src;
+            images[index].classList.add("loaded");
+
+            // Load the next image after this one has loaded
+            loadNextImage(index + 1, images);
+          };
+          img.src = images[index].getAttribute("data-src");
+        }
+
+
+///////////////////////////////////////////////////////
     });
   });
 });
