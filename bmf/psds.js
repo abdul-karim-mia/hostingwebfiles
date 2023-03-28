@@ -58,7 +58,7 @@ gapi.load('client', function() {
 var psdDiv = document.getElementsByClassName("psd");
 if (psdDiv.length > 0) {
   var imgElemnt = psdDiv[0].getElementsByTagName("img");
-  window.addEventListener("load", function() {
+  document.addEventListener("load", function() {
     imgElemnt[0].src = imgElemnt[0].getAttribute("data-src");
   });
 }
