@@ -2,7 +2,7 @@
 gapi.load('client', function () {
   // Initialize the API client with your API key
   gapi.client.init({
-    apiKey: 'AIzaSyDC0_hBFv3L8057WG-zqygdMJH4w1Hq9hs',
+    apiKey: 'YOUR_API_KEY',
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest']
   }).then(function () {
     // Retrieve the file metadata for PSD files in the public folder
@@ -18,26 +18,32 @@ gapi.load('client', function () {
         var name = file.name;
         var placeHolder = "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/Bulk%20mockups%20filler%20loading%20placeholder.gif"
         var thumbnailUrl = file.thumbnailLink;
-        if (!thumbnailUrl) thumbnailUrl = "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
+        if (!thumbnailUrl) {
+          // Remove extension from name
+          var nameWithoutExt = name.split('.').slice(0, -1).join('.');
+          // Check for jpg image with the same name
+          var jpgFile = files.find(function(f) {
+            return f.name == nameWithoutExt + '.jpg' && f.mimeType == 'image/jpeg';
+          });
+          if (jpgFile) {
+            thumbnailUrl = jpgFile.thumbnailLink;
+          } else {
+            thumbnailUrl = "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
+          }
+        }
         // Create the <div> element
         var div = document.createElement('div');
         div.classList.add('psd');
         div.setAttribute('data-aos', 'fade-up');
         div.setAttribute('data-aos-duration', '1000');
         // Create the <img> element
-        // var aa = document.createElement('a');
-        //aa.setAttribute('href', thumbnailUrl);
         var img = document.createElement('img');
         img.classList.add('psdThumb');
         img.setAttribute('alt', name);
         img.setAttribute('title', name);
         img.setAttribute('src', placeHolder);
         img.setAttribute('data-src', thumbnailUrl);
-        //img.setAttribute('onload', "this.src=this.getAttribute('data-src');");
-        // aa.setAttribute('data-lightbox', name);
-        //img.setAttribute('data-lity','');
-        img.setAttribute('loading', 'lazy')
-        //aa.appendChild(img);
+        img.setAttribute('loading', 'lazy');
         div.appendChild(img);
         // Create the <button> element
         var button = document.createElement('button');
