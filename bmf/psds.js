@@ -65,43 +65,42 @@ gapi.load('client', function () {
           }
         }
       }
+      function loadNextImage(index, images) {
+        // Exit function if all images have been loaded
+        if (index >= images.length) {
+          return;
+        }
+
+        // Load the next image and update the "src" attribute when it's loaded
+        var img = new Image();
+        img.onload = function () {
+          // Fade in the current image when it's loaded
+          fadeInImage(images[index], 0);
+
+          // Load the next image after this one has loaded
+          loadNextImage(index + 1, images);
+        };
+        img.src = images[index].getAttribute("data-src");
+      }
+
+      function fadeInImage(element, opacity) {
+        // Set the initial opacity to 0
+        element.style.opacity = 0;
+
+        // Increase the opacity gradually using a loop
+        var intervalID = setInterval(function () {
+          // Increase the opacity by 0.1 on each loop iteration
+          opacity += 0.1;
+          element.style.opacity = opacity;
+
+          // Exit loop when the opacity reaches 1
+          if (opacity >= 1) {
+            clearInterval(intervalID);
+          }
+        }, 100); // 50ms delay between loop iterations
+      }
+
       ///////////////////////////////////////////////////////
     });
   });
 });
-
-
-function loadNextImage(index, images) {
-  // Exit function if all images have been loaded
-  if (index >= images.length) {
-    return;
-  }
-
-  // Load the next image and update the "src" attribute when it's loaded
-  var img = new Image();
-  img.onload = function () {
-    // Fade in the current image when it's loaded
-    fadeInImage(images[index], 0);
-
-    // Load the next image after this one has loaded
-    loadNextImage(index + 1, images);
-  };
-  img.src = images[index].getAttribute("data-src");
-}
-
-function fadeInImage(element, opacity) {
-  // Set the initial opacity to 0
-  element.style.opacity = 0;
-
-  // Increase the opacity gradually using a loop
-  var intervalID = setInterval(function () {
-    // Increase the opacity by 0.1 on each loop iteration
-    opacity += 0.1;
-    element.style.opacity = opacity;
-
-    // Exit loop when the opacity reaches 1
-    if (opacity >= 1) {
-      clearInterval(intervalID);
-    }
-  }, 100); // 50ms delay between loop iterations
-}
