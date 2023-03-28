@@ -57,12 +57,14 @@ gapi.load('client', function() {
 
 
 // lazy load for all image one by one
-var psdDiv = document.getElementsByClassName("psd");
-if (psdDiv.length > 0) {
-  var imgElements = psdDiv[0].getElementsByTagName("img");
-  
-  // Load the first image
-  loadNextImage(0, imgElements);
+var psdDivs = document.getElementsByClassName("psd");
+
+if (psdDivs.length > 0) {
+  // Load the images in each "psdDiv" one by one
+  for (var i = 0; i < psdDivs.length; i++) {
+    var img = psdDivs[i].getElementsByTagName("img")[0];
+    loadNextImage(0, [img]);
+  }
 }
 
 function loadNextImage(index, images) {
