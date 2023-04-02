@@ -1,12 +1,12 @@
 
-  // Load the Drive API client
-gapi.load('client', function() {
+// Load the Drive API client
+gapi.load('client', function () {
   // Initialize the API client with the authorization key
   gapi.client.init({
     apiKey: 'AIzaSyDC0_hBFv3L8057WG-zqygdMJH4w1Hq9hs',
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
     scope: 'https://www.googleapis.com/auth/drive.readonly'
-  }).then(function() {
+  }).then(function () {
     // Set the ID of the folder to retrieve files from
     var folderId = '1xcmITjDd3XaD4TLRKg6BYygK5PTPSFux';
 
@@ -40,7 +40,7 @@ gapi.load('client', function() {
         fields: fields,
         pageSize: pageSize,
         pageToken: pageToken
-      }).then(function(response) {
+      }).then(function (response) {
         // Add the retrieved files to the array
         allFiles = allFiles.concat(response.result.files);
 
@@ -58,7 +58,7 @@ gapi.load('client', function() {
               var name = file.name.replace(/\.[^/.]+$/, ""); // remove file extension
               var thumbnailUrl = file.thumbnailLink;
               // check if thumbnailUrl is undefined or empty, or if there is an image with the same name
-              if (!thumbnailUrl || thumbnailUrl === "" || !allFiles.some(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink)) {
+              if (!thumbnailUrl || thumbnailUrl === "") {
                 thumbnailUrl = allFiles.find(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink)?.thumbnailLink || "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
               }
               var div = document.createElement('div');
@@ -94,57 +94,57 @@ gapi.load('client', function() {
   });
 });
 
-function loadAfterDane(){
-   
-        ///////////////////////////////////////////////////////
-        var psdDivs = document.getElementsByClassName("psd");
+function loadAfterDane() {
 
-        if (psdDivs.length > 0) {
-          // Loop over each "psdDiv" element
-          for (var i = 0; i < psdDivs.length; i++) {
-            var imgElements = psdDivs[i].getElementsByTagName("img");
-  
-            // Load the images in each "psdDiv" one by one
-            for (var j = 0; j < imgElements.length; j++) {
-              loadNextImage(0, [imgElements[j]]);
-            }
-          }
-        }
-        function loadNextImage(index, images) {
-          // Exit function if all images have been loaded
-          if (index >= images.length) {
-            return;
-          }
-  
-          // Load the next image and update the "src" attribute when it's loaded
-          var img = new Image();
-          img.onload = function () {
-            images[index].setAttribute("src", img.src);
-  
-            // Fade in the current image when it's loaded
-            fadeInImage(images[index], 0);
-  
-            // Load the next image after this one has loaded
-            loadNextImage(index + 1, images);
-          };
-          img.src = images[index].getAttribute("data-src");
-        }
-  
-        function fadeInImage(element, opacity) {
-          // Set the initial opacity to 0
-          element.style.opacity = 0;
-  
-          // Increase the opacity gradually using a loop
-          var intervalID = setInterval(function () {
-            // Increase the opacity by 0.1 on each loop iteration
-            opacity += 0.1;
-            element.style.opacity = opacity;
-  
-            // Exit loop when the opacity reaches 1
-            if (opacity >= 1) {
-              clearInterval(intervalID);
-            }
-          }, 10); // 50ms delay between loop iterations
-        }
+  ///////////////////////////////////////////////////////
+  var psdDivs = document.getElementsByClassName("psd");
+
+  if (psdDivs.length > 0) {
+    // Loop over each "psdDiv" element
+    for (var i = 0; i < psdDivs.length; i++) {
+      var imgElements = psdDivs[i].getElementsByTagName("img");
+
+      // Load the images in each "psdDiv" one by one
+      for (var j = 0; j < imgElements.length; j++) {
+        loadNextImage(0, [imgElements[j]]);
+      }
+    }
+  }
+  function loadNextImage(index, images) {
+    // Exit function if all images have been loaded
+    if (index >= images.length) {
+      return;
+    }
+
+    // Load the next image and update the "src" attribute when it's loaded
+    var img = new Image();
+    img.onload = function () {
+      images[index].setAttribute("src", img.src);
+
+      // Fade in the current image when it's loaded
+      fadeInImage(images[index], 0);
+
+      // Load the next image after this one has loaded
+      loadNextImage(index + 1, images);
+    };
+    img.src = images[index].getAttribute("data-src");
+  }
+
+  function fadeInImage(element, opacity) {
+    // Set the initial opacity to 0
+    element.style.opacity = 0;
+
+    // Increase the opacity gradually using a loop
+    var intervalID = setInterval(function () {
+      // Increase the opacity by 0.1 on each loop iteration
+      opacity += 0.1;
+      element.style.opacity = opacity;
+
+      // Exit loop when the opacity reaches 1
+      if (opacity >= 1) {
+        clearInterval(intervalID);
+      }
+    }, 10); // 50ms delay between loop iterations
+  }
 
 }
