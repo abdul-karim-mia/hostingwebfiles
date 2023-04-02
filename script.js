@@ -1,6 +1,4 @@
-/*
-window.onload = function () {
-  try {
+ try {
     var targetId = "HTML2";
     var i = 0;
     var intervalId = setInterval(function () {
@@ -8,37 +6,24 @@ window.onload = function () {
       if (targetElement && targetElement !== null && targetElement !== undefined) {
         var spanElements = targetElement.getElementsByTagName("span");
         if (spanElements[1]) {
-          var fadeoutterval = setInterval(function () {
-            var opacityy = parseFloat(spanElements[1].style.opacity);
-            if (opacityy > 0) {
-              opacityy -= 0.1;
-              spanElements[1].style.opacity = opacityy.toString();
-            } else {
-              clearInterval(fadeoutterval);
-            }
-          }, 100);
           spanElements[1].textContent = words[i];
           var randomColor = Math.floor(Math.random() * 16777215).toString(16);
           spanElements[1].style.color = "#" + randomColor;
           spanElements[1].style.opacity = "0";
-          var fadeInterval = setInterval(function () {
-            var opacity = parseFloat(spanElements[1].style.opacity);
-            if (opacity < 1) {
-              opacity += 0.1;
-              spanElements[1].style.opacity = opacity.toString();
-            } else {
-              clearInterval(fadeInterval);
-            }
+          spanElements[1].style.transition = "opacity 0.5s linear";
+          setTimeout(function () {
+            spanElements[1].style.opacity = "1";
           }, 100);
+          setTimeout(function () {
+            spanElements[1].style.opacity = "0";
+          }, 8000);
           i = (i + 1) % words.length;
         }
       }
     }, 3000);
   } catch (error) {
-    console.error(error);
+   // console.error(error);
   }
-}
-*/
 try {
   // get the header element
   const header = document.querySelector('.header');
