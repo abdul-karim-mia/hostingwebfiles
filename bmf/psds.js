@@ -12,7 +12,7 @@ gapi.load('client', function () {
         fields: 'nextPageToken, files(id, name, mimeType, thumbnailLink, webContentLink)'
       }).then(function (response) {
         var files = response.result.files;
-        console.log(files)
+        //console.log(files)
         // Iterate through the PSD files and display them on your web page
         for (var i = 0; i < files.length; i++) {
           var file = files[i];
