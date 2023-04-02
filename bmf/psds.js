@@ -8,8 +8,9 @@ gapi.load('client', function () {
     // Retrieve the file metadata for PSD files in the public folder
     gapi.client.drive.files.list({
       // https://drive.google.com/drive/folders/1RtxMFw_cDrjkW1PZ3Meu8Gm4Kjkmaa5A?usp=share_link
+      // https://drive.google.com/drive/folders/1xcmITjDd3XaD4TLRKg6BYygK5PTPSFux?usp=sharing
       // 1m-Aw3f_8ng1KoF1SzSfOWQ_BDuncK9ZJ
-      q: "'1RtxMFw_cDrjkW1PZ3Meu8Gm4Kjkmaa5A' in parents and mimeType='image/x-photoshop'",
+      q: "'1xcmITjDd3XaD4TLRKg6BYygK5PTPSFux' in parents and mimeType='image/x-photoshop'",
       fields: 'nextPageToken, files(id, name, thumbnailLink, webContentLink)'
     }).then(function (response) {
       var files = response.result.files;
