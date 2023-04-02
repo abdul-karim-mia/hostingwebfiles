@@ -1,3 +1,4 @@
+/*
 window.onload = function () {
   try {
     var targetId = "HTML2";
@@ -37,7 +38,7 @@ window.onload = function () {
     console.error(error);
   }
 }
-
+*/
 try {
   // get the header element
   const header = document.querySelector('.header');
