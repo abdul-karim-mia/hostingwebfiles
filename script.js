@@ -262,7 +262,7 @@ for (let i = 0; i < linksYt.length; i++) {
   const linkyT = linksYt[i];
 
   // Check if the <a> element's href contains "youtube.com" or "youtu.be"
-  if (linkyT.href.includes("youtube.com") || linkyT.href.includes("youtu.be")) {
+  if ((linkyT.href.includes("youtube.com") || linkyT.href.includes("youtu.be"))&& !inkyT.href.includes("@")) {
 
     // Add the "data-lity" attribute to the <a> element
     linkyT.setAttribute("data-lity", "");
