@@ -58,7 +58,7 @@ gapi.load('client', function () {
               var name = file.name.replace(/\.[^/.]+$/, ""); // remove file extension
               var thumbnailUrl = file.thumbnailLink;
               // check if thumbnailUrl is undefined or empty, or if there is an image with the same name
-              if (!thumbnailUrl || thumbnailUrl === "" || !allFiles.some(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink)) {
+              if (!thumbnailUrl || thumbnailUrl === "") {
                 thumbnailUrl = allFiles.find(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink)?.thumbnailLink || "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
               }
               var div = document.createElement('div');
