@@ -59,8 +59,14 @@ gapi.load('client', function () {
               var thumbnailUrl = file.thumbnailLink;
               // check if thumbnailUrl is undefined or empty, or if there is an image with the same name
               if (!thumbnailUrl || thumbnailUrl === "") {
-                thumbnailUrl = allFiles.find(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink)?.thumbnailLink || "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
+                var imageFile = allFiles.find(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink);
+                if (imageFile) {
+                  thumbnailUrl = imageFile.thumbnailLink;
+                } else {
+                  thumbnailUrl = "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
+                }
               }
+              
               var div = document.createElement('div');
               div.classList.add('psd');
               div.setAttribute('data-aos', 'fade-up');
