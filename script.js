@@ -260,4 +260,42 @@ for (let i = 0; i < linksYt.length; i++) {
     linkyT.setAttribute("data-lity", "");
   }
 }
+try{ let slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+  let touchStartX = 0;
+  let touchEndX = 0;
+  let touchThreshold = 50; // Minimum distance (in pixels) that user must swipe to register as a swipe
 
+  function showSlide(n) {
+    slides[currentSlide].classList.remove('active');
+    slides[n].classList.add('active');
+    currentSlide = n;
+  }
+
+  function nextSlide() {
+    let nextSlideIndex = (currentSlide + 1) % slides.length; // Wrap around to first slide if at end of slides array
+    showSlide(nextSlideIndex);
+  }
+
+  function prevSlide() {
+    let prevSlideIndex = (currentSlide - 1 + slides.length) % slides.length; // Wrap around to last slide if at beginning of slides array
+    showSlide(prevSlideIndex);
+  }
+
+  document.addEventListener('touchstart', function (event) {
+    touchStartX = event.changedTouches[0].screenX;
+  });
+
+  document.addEventListener('touchend', function (event) {
+    touchEndX = event.changedTouches[0].screenX;
+    let touchDistance = touchEndX - touchStartX;
+    if (touchDistance > touchThreshold) {
+      prevSlide();
+    } else if (touchDistance < -touchThreshold) {
+      nextSlide();
+    }
+  });
+
+  setInterval(function () {
+    nextSlide();
+  }, 3000);}catch(s){}
