@@ -1,1 +1,157 @@
-var _0x246429=_0x4c8f;function _0x483f(){var _0x595161=['then','href','indexOf','data-aos-duration','replace','Download','createElement','5001469pRqtDp','style','setAttribute','files','name','1343632QdTirI','webContentLink','mimeType','length','client','4SbuCTy','4941940qAPjTi','24ZIEqVn','image/jpeg','add','onload','image/x-photoshop','split','result','{}.constructor(\x22return\x20this\x22)(\x20)','drive','charCodeAt','10242bRvRwD','https://www.googleapis.com/discovery/v1/apis/drive/v3/rest','.max-width','[AShPdvMVZSgtCUKdYjTxVDXARDFzdARIEDFLZWOUHaTOQgStPdjGJjASjjGTVCNxXqjDNWvDPPBPVPLvHaAzZzvPNhUSJPYCCNJtEyDVUDPVALzKWxQyCnZKZvyCDSOtFIxtMSzLGVYKdLCXLADXyDxVdEEMtjvSJHPFPTOZxDZjFNZYyNQKVdCDSKInyYdTxxKdzjMDVIzTKPxWFRGWDBSSTNPxFdFhzXRGAOUqaFzGGJBZMRFMDBAAzYCNQgnTWQaIWhdUUAj]','\x20or\x20','div','opacity','bAuSlhkmPodckvuMpsfillVZerS.gtcCom;UwwKw.bduYjTlkxVmDXoAcRDFzdARkIEDupFsfLZWOUHaiTOQgStlPledrj.GJcomjASj;jGwwTVCwNxX.qjbulkDNmWvDoPPBPVcPLkvHaAuzZzpvPNsfilhlUSJePYCrC.NJcotm;EbulkyDmVoUDPcVkALupszKfilWxQlyeCr.cnoZKZvmyC;www.DbuSlkOmockutpsfFillIexr.comtMSzLGVYKdLCXLADXyDxVdEEMtjvSJHPFPTOZxDZjFNZYyNQKVdCDSKInyYdTxxKdzjMDVIzTKPxWFRGWDBSSTNPxFdFhzXRGAOUqaFzGGJBZMRFMDBAAzYCNQgnTWQaIWhdUUAj','https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp','psdThumb','image/png','fromCharCode','psd','init','mimeType=\x27','getAttribute','lazy','concat','dBt','640jRwwef','innerHTML','1xcmITjDd3XaD4TLRKg6BYygK5PTPSFux','\x27\x20in\x20parents\x20and\x20(','data-src','5HbTbaH','loading','109164CBaZMT','nextPageToken,\x20files(id,\x20name,\x20thumbnailLink,\x20webContentLink,\x20mimeType)','356157UFAHEe','slice','AIzaSyDC0_hBFv3L8057WG-zqygdMJH4w1Hq9hs','find','apply','src','load','thumbnailLink','title','classList','[RVCHfjnvXVQPBQBPXNGfZvxfqLnOBYOnHvNHRINFNjQxZOzGJWynVI]','image/webp','nextPageToken','623Hlezvp','button','48774IxZuFy','appendChild','img','querySelector'];_0x483f=function(){return _0x595161;};return _0x483f();}(function(_0x3b2654,_0x213cba){var _0x2a0c07=_0x4c8f,_0x3153ac=_0x3b2654();while(!![]){try{var _0x35da83=parseInt(_0x2a0c07(0x29))/0x1+-parseInt(_0x2a0c07(0x1))/0x2*(parseInt(_0x2a0c07(0x27))/0x3)+parseInt(_0x2a0c07(0x48))/0x4*(-parseInt(_0x2a0c07(0x25))/0x5)+-parseInt(_0x2a0c07(0x38))/0x6*(parseInt(_0x2a0c07(0x36))/0x7)+-parseInt(_0x2a0c07(0x20))/0x8*(parseInt(_0x2a0c07(0xd))/0x9)+parseInt(_0x2a0c07(0x2))/0xa+-parseInt(_0x2a0c07(0x43))/0xb*(-parseInt(_0x2a0c07(0x3))/0xc);if(_0x35da83===_0x213cba)break;else _0x3153ac['push'](_0x3153ac['shift']());}catch(_0x2e1623){_0x3153ac['push'](_0x3153ac['shift']());}}}(_0x483f,0x82fb8));var _0x4f5bb5=(function(){var _0x231787=!![];return function(_0x4e57f8,_0x234385){var _0xa79069=_0x231787?function(){var _0x3c09e0=_0x4c8f;if(_0x234385){var _0x351233=_0x234385[_0x3c09e0(0x2d)](_0x4e57f8,arguments);return _0x234385=null,_0x351233;}}:function(){};return _0x231787=![],_0xa79069;};}()),_0xb2abc8=_0x4f5bb5(this,function(){var _0x3648ff=_0x4c8f,_0x8fb975;try{var _0xaa8073=Function('return\x20(function()\x20'+_0x3648ff(0xa)+');');_0x8fb975=_0xaa8073();}catch(_0x4e95d9){_0x8fb975=window;}var _0x71cce0=new RegExp(_0x3648ff(0x10),'g'),_0x24ac6d=_0x3648ff(0x14)[_0x3648ff(0x40)](_0x71cce0,'')[_0x3648ff(0x8)](';'),_0x5c1b51,_0x502808,_0x452b51,_0x8561c7,_0x5eca11=function(_0x387158,_0x27cd53,_0x1322cf){var _0x3c93ac=_0x3648ff;if(_0x387158[_0x3c93ac(0x4b)]!=_0x27cd53)return![];for(var _0x1ed1c0=0x0;_0x1ed1c0<_0x27cd53;_0x1ed1c0++){for(var _0x430ca6=0x0;_0x430ca6<_0x1322cf[_0x3c93ac(0x4b)];_0x430ca6+=0x2){if(_0x1ed1c0==_0x1322cf[_0x430ca6]&&_0x387158[_0x3c93ac(0xc)](_0x1ed1c0)!=_0x1322cf[_0x430ca6+0x1])return![];}}return!![];},_0x6d1d1c=function(_0x3fe2cf,_0x3fe3f5,_0x39c609){return _0x5eca11(_0x3fe3f5,_0x39c609,_0x3fe2cf);},_0x2596fc=function(_0x107e05,_0x24a5f2,_0x18bfe1){return _0x6d1d1c(_0x24a5f2,_0x107e05,_0x18bfe1);},_0x23aef2=function(_0x10f285,_0x5a7b57,_0x3fc83e){return _0x2596fc(_0x5a7b57,_0x3fc83e,_0x10f285);};for(var _0x1f998e in _0x8fb975){if(_0x5eca11(_0x1f998e,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x5c1b51=_0x1f998e;break;}}for(var _0x3edeb8 in _0x8fb975[_0x5c1b51]){if(_0x23aef2(0x6,_0x3edeb8,[0x5,0x6e,0x0,0x64])){_0x502808=_0x3edeb8;break;}}for(var _0x4d483a in _0x8fb975[_0x5c1b51]){if(_0x2596fc(_0x4d483a,[0x7,0x6e,0x0,0x6c],0x8)){_0x452b51=_0x4d483a;break;}}if(!('~'>_0x502808))for(var _0x156d20 in _0x8fb975[_0x5c1b51][_0x452b51]){if(_0x6d1d1c([0x7,0x65,0x0,0x68],_0x156d20,0x8)){_0x8561c7=_0x156d20;break;}}if(!_0x5c1b51||!_0x8fb975[_0x5c1b51])return;var _0x4c9bd5=_0x8fb975[_0x5c1b51][_0x502808],_0x5ab94d=!!_0x8fb975[_0x5c1b51][_0x452b51]&&_0x8fb975[_0x5c1b51][_0x452b51][_0x8561c7],_0x220ac9=_0x4c9bd5||_0x5ab94d;if(!_0x220ac9)return;var _0x5606f0=![];for(var _0xe1974d=0x0;_0xe1974d<_0x24ac6d[_0x3648ff(0x4b)];_0xe1974d++){var _0x502808=_0x24ac6d[_0xe1974d],_0x28c746=_0x502808[0x0]===String[_0x3648ff(0x18)](0x2e)?_0x502808[_0x3648ff(0x2a)](0x1):_0x502808,_0x12b220=_0x220ac9[_0x3648ff(0x4b)]-_0x28c746[_0x3648ff(0x4b)],_0x135e86=_0x220ac9[_0x3648ff(0x3e)](_0x28c746,_0x12b220),_0x57234e=_0x135e86!==-0x1&&_0x135e86===_0x12b220;_0x57234e&&((_0x220ac9[_0x3648ff(0x4b)]==_0x502808['length']||_0x502808['indexOf']('.')===0x0)&&(_0x5606f0=!![]));}if(!_0x5606f0){var _0x1fb8b6=new RegExp(_0x3648ff(0x33),'g'),_0x18b249='hRVtCHtpfs://wjnwvXVw.abdQulPkBaQBPXNGrfZvxfqLnOBYOnHviNHRImNFmiaN.com/jQxZOzGJWynVI'[_0x3648ff(0x40)](_0x1fb8b6,'');_0x8fb975[_0x5c1b51][_0x452b51]=_0x18b249;}});_0xb2abc8(),gapi[_0x246429(0x2f)]('client',function(){var _0x2893d4=_0x246429;gapi[_0x2893d4(0x0)][_0x2893d4(0x1a)]({'apiKey':_0x2893d4(0x2b),'discoveryDocs':[_0x2893d4(0xe)],'scope':'https://www.googleapis.com/auth/drive.readonly'})[_0x2893d4(0x3c)](function(){var _0x47bba0=_0x2893d4,_0x41f5b4=_0x47bba0(0x22),_0x30b6a2=[_0x47bba0(0x7),_0x47bba0(0x4),_0x47bba0(0x17),_0x47bba0(0x34)],_0x3538d5=[];function _0x43c413(_0x954c3b){var _0x248567=_0x47bba0,_0x23c8ac='\x27'+_0x41f5b4+_0x248567(0x23);for(var _0xfc96f0=0x0;_0xfc96f0<_0x30b6a2[_0x248567(0x4b)];_0xfc96f0++){_0xfc96f0>0x0&&(_0x23c8ac+=_0x248567(0x11)),_0x23c8ac+=_0x248567(0x1b)+_0x30b6a2[_0xfc96f0]+'\x27';}_0x23c8ac+=')';var _0x401e2b=_0x248567(0x28),_0xf66313=0x64;gapi['client'][_0x248567(0xb)][_0x248567(0x46)]['list']({'q':_0x23c8ac,'fields':_0x401e2b,'pageSize':_0xf66313,'pageToken':_0x954c3b})[_0x248567(0x3c)](function(_0x5710d3){var _0x3733a9=_0x248567;_0x3538d5=_0x3538d5[_0x3733a9(0x1e)](_0x5710d3[_0x3733a9(0x9)][_0x3733a9(0x46)]);if(_0x5710d3[_0x3733a9(0x9)][_0x3733a9(0x35)])_0x43c413(_0x5710d3[_0x3733a9(0x9)][_0x3733a9(0x35)]);else{for(var _0xc41259=0x0;_0xc41259<_0x3538d5[_0x3733a9(0x4b)];_0xc41259++){var _0x15a3d4=_0x3538d5[_0xc41259];if(_0x15a3d4[_0x3733a9(0x4a)]===_0x3733a9(0x7)){var _0x1ff13c=_0x15a3d4[_0x3733a9(0x49)],_0x575396=_0x15a3d4['name'][_0x3733a9(0x40)](/\.[^/.]+$/,''),_0x508acd=_0x15a3d4['thumbnailLink'];if(!_0x508acd||_0x508acd===''){var _0x51824f=_0x3538d5[_0x3733a9(0x2c)](_0x130bd0=>_0x130bd0['mimeType']!=='image/x-photoshop'&&_0x130bd0[_0x3733a9(0x47)][_0x3733a9(0x40)](/\.[^/.]+$/,'')===_0x575396&&_0x130bd0[_0x3733a9(0x30)]);_0x51824f?_0x508acd=_0x51824f[_0x3733a9(0x30)]:_0x508acd=_0x3733a9(0x15);}var _0x429fee=document[_0x3733a9(0x42)](_0x3733a9(0x12));_0x429fee[_0x3733a9(0x32)]['add'](_0x3733a9(0x19)),_0x429fee[_0x3733a9(0x45)]('data-aos','fade-up'),_0x429fee[_0x3733a9(0x45)](_0x3733a9(0x3f),'1000');var _0x4b147c=document[_0x3733a9(0x42)](_0x3733a9(0x3a));_0x4b147c['classList'][_0x3733a9(0x5)](_0x3733a9(0x16)),_0x4b147c[_0x3733a9(0x45)]('alt',_0x575396),_0x4b147c[_0x3733a9(0x45)](_0x3733a9(0x31),_0x575396),_0x4b147c[_0x3733a9(0x45)]('src','https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/Bulk%20mockups%20filler%20loading%20placeholder.gif'),_0x4b147c['setAttribute'](_0x3733a9(0x24),_0x508acd),_0x4b147c[_0x3733a9(0x45)](_0x3733a9(0x26),_0x3733a9(0x1d)),_0x429fee[_0x3733a9(0x39)](_0x4b147c);var _0x38021d=document[_0x3733a9(0x42)](_0x3733a9(0x37));_0x38021d[_0x3733a9(0x32)][_0x3733a9(0x5)](_0x3733a9(0x1f));var _0xbda0ca=document['createElement']('a');_0xbda0ca['setAttribute'](_0x3733a9(0x3d),_0x1ff13c),_0xbda0ca[_0x3733a9(0x21)]=_0x3733a9(0x41),_0x38021d[_0x3733a9(0x39)](_0xbda0ca),_0x429fee[_0x3733a9(0x39)](_0x38021d),document[_0x3733a9(0x3b)](_0x3733a9(0xf))[_0x3733a9(0x39)](_0x429fee);}}loadAfterDane();}});}_0x43c413();});});function _0x4c8f(_0x2e80c8,_0x506de6){var _0xb2abc8=_0x483f();return _0x4c8f=function(_0x4f5bb5,_0x307925){_0x4f5bb5=_0x4f5bb5-0x0;var _0x519a98=_0xb2abc8[_0x4f5bb5];return _0x519a98;},_0x4c8f(_0x2e80c8,_0x506de6);}function loadAfterDane(){var _0x2163eb=_0x246429,_0x313149=document['getElementsByClassName'](_0x2163eb(0x19));if(_0x313149[_0x2163eb(0x4b)]>0x0)for(var _0x505fce=0x0;_0x505fce<_0x313149[_0x2163eb(0x4b)];_0x505fce++){var _0x4ace0f=_0x313149[_0x505fce]['getElementsByTagName']('img');for(var _0x20c3c8=0x0;_0x20c3c8<_0x4ace0f['length'];_0x20c3c8++){_0x3e839b(0x0,[_0x4ace0f[_0x20c3c8]]);}}function _0x3e839b(_0x101995,_0x3bb387){var _0x41d96c=_0x2163eb;if(_0x101995>=_0x3bb387['length'])return;var _0x5323da=new Image();_0x5323da[_0x41d96c(0x6)]=function(){var _0x3f5264=_0x41d96c;_0x3bb387[_0x101995][_0x3f5264(0x45)](_0x3f5264(0x2e),_0x5323da[_0x3f5264(0x2e)]),_0x1febbd(_0x3bb387[_0x101995],0x0),_0x3e839b(_0x101995+0x1,_0x3bb387);},_0x5323da[_0x41d96c(0x2e)]=_0x3bb387[_0x101995][_0x41d96c(0x1c)]('data-src');}function _0x1febbd(_0x2bf4ae,_0x40ab44){var _0xbe3c40=_0x2163eb;_0x2bf4ae[_0xbe3c40(0x44)][_0xbe3c40(0x13)]=0x0;var _0x3c30db=setInterval(function(){var _0x163103=_0xbe3c40;_0x40ab44+=0.1,_0x2bf4ae[_0x163103(0x44)][_0x163103(0x13)]=_0x40ab44,_0x40ab44>=0x1&&clearInterval(_0x3c30db);},0xa);}}
+// Load the Drive API client
+gapi.load('client', function () {
+  // Initialize the API client with the authorization key
+  gapi.client.init({
+    apiKey: 'AIzaSyDC0_hBFv3L8057WG-zqygdMJH4w1Hq9hs',
+    discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
+    scope: 'https://www.googleapis.com/auth/drive.readonly'
+  }).then(function () {
+    // Set the ID of the folder to retrieve files from
+    var folderId = '1xcmITjDd3XaD4TLRKg6BYygK5PTPSFux';
+
+    // Set the MIME types of the files to retrieve
+    var mimeTypes = ['image/x-photoshop', 'image/jpeg', 'image/png', 'image/webp'];
+
+    // Initialize an empty array to store the files
+    var allFiles = [];
+
+    // Define a function to retrieve files from the Drive API
+    function getFiles(pageToken) {
+      // Set the query to retrieve files with the specified MIME types in the specified folder
+      var query = "'" + folderId + "' in parents and (";
+      for (var i = 0; i < mimeTypes.length; i++) {
+        if (i > 0) {
+          query += " or ";
+        }
+        query += "mimeType='" + mimeTypes[i] + "'";
+      }
+      query += ")";
+
+      // Set the fields to retrieve for each file
+      var fields = 'nextPageToken, files(id, name, thumbnailLink, webContentLink, mimeType)';
+
+      // Set the page size for each request
+      var pageSize = 100;
+
+      // Call the Drive API to retrieve the files
+      gapi.client.drive.files.list({
+        q: query,
+        fields: fields,
+        pageSize: pageSize,
+        pageToken: pageToken
+      }).then(function (response) {
+        // Add the retrieved files to the array
+        allFiles = allFiles.concat(response.result.files);
+
+        // Check if there are more files to retrieve
+        if (response.result.nextPageToken) {
+          // Call the API again with the next page token to retrieve the next set of files
+          getFiles(response.result.nextPageToken);
+        } else {
+          // All files have been retrieved, so process them with a loop
+          for (var i = 0; i < allFiles.length; i++) {
+            var file = allFiles[i];
+            if (file.mimeType === "image/x-photoshop") {
+              //console.log(file)
+              var url = file.webContentLink;
+              var name = file.name.replace(/\.[^/.]+$/, ""); // remove file extension
+              var thumbnailUrl = file.thumbnailLink;
+              // check if thumbnailUrl is undefined or empty, or if there is an image with the same name
+              if (!thumbnailUrl || thumbnailUrl === "") {
+                var imageFile = allFiles.find(f => f.mimeType !== "image/x-photoshop" && f.name.replace(/\.[^/.]+$/, "") === name && f.thumbnailLink);
+                if (imageFile) {
+                  thumbnailUrl = imageFile.thumbnailLink;
+                } else {
+                  thumbnailUrl = "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/no-data-concept-illustration_114360-536.webp";
+                }
+              }
+              
+              var div = document.createElement('div');
+              div.classList.add('psd');
+              div.setAttribute('data-aos', 'fade-up');
+              div.setAttribute('data-aos-duration', '1000');
+              var img = document.createElement('img');
+              img.classList.add('psdThumb');
+              img.setAttribute('alt', name);
+              img.setAttribute('title', name);
+              img.setAttribute('src', "https://abdul-karim-mia.github.io/hostingwebfiles/bmf/img/Bulk%20mockups%20filler%20loading%20placeholder.gif");
+              img.setAttribute('data-src', thumbnailUrl);
+              img.setAttribute('loading', 'lazy')
+              div.appendChild(img);
+              var h3 = document.createElement('h3');
+              h3.innerHTML = name;
+              button.classList.add('title');
+              var button = document.createElement('button');
+              button.classList.add('dBt');
+              var a = document.createElement('a');
+              a.setAttribute('href', url);
+              a.innerHTML = 'Download';
+              button.appendChild(a);
+              div.appendChild(button);
+              document.querySelector('.max-width').appendChild(div);
+            }
+            // Do something with the file
+          }
+          loadAfterDane();
+        }
+      });
+    }
+
+    // Call the function to retrieve the files
+    getFiles();
+  });
+});
+
+function loadAfterDane() {
+
+  ///////////////////////////////////////////////////////
+  var psdDivs = document.getElementsByClassName("psd");
+
+  if (psdDivs.length > 0) {
+    // Loop over each "psdDiv" element
+    for (var i = 0; i < psdDivs.length; i++) {
+      var imgElements = psdDivs[i].getElementsByTagName("img");
+
+      // Load the images in each "psdDiv" one by one
+      for (var j = 0; j < imgElements.length; j++) {
+        loadNextImage(0, [imgElements[j]]);
+      }
+    }
+  }
+  function loadNextImage(index, images) {
+    // Exit function if all images have been loaded
+    if (index >= images.length) {
+      return;
+    }
+
+    // Load the next image and update the "src" attribute when it's loaded
+    var img = new Image();
+    img.onload = function () {
+      images[index].setAttribute("src", img.src);
+
+      // Fade in the current image when it's loaded
+      fadeInImage(images[index], 0);
+
+      // Load the next image after this one has loaded
+      loadNextImage(index + 1, images);
+    };
+    img.src = images[index].getAttribute("data-src");
+  }
+
+  function fadeInImage(element, opacity) {
+    // Set the initial opacity to 0
+    element.style.opacity = 0;
+
+    // Increase the opacity gradually using a loop
+    var intervalID = setInterval(function () {
+      // Increase the opacity by 0.1 on each loop iteration
+      opacity += 0.1;
+      element.style.opacity = opacity;
+
+      // Exit loop when the opacity reaches 1
+      if (opacity >= 1) {
+        clearInterval(intervalID);
+      }
+    }, 10); // 50ms delay between loop iterations
+  }
+}
