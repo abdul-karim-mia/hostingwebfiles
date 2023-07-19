@@ -80,7 +80,8 @@ gapi.load('client', function () {
               div.appendChild(img);
               var h3 = document.createElement('h3');
               h3.innerHTML = name;
-              button.classList.add('title');
+              h3.classList.add('title');
+              h3.appendChild(button);
               var button = document.createElement('button');
               button.classList.add('dBt');
               var a = document.createElement('a');
@@ -154,4 +155,5 @@ function loadAfterDane() {
       }
     }, 10); // 50ms delay between loop iterations
   }
+
 }
