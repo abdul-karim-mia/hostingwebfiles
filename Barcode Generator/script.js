@@ -225,10 +225,9 @@ try {
   var image2 = document.getElementById("Image2");
   var image3 = document.getElementById("Image3");
   var image4 = document.getElementById("Image4");
-  var image5 = document.getElementById("Image5");
 
   // Create an array of YouTube video IDs
-  var videoIds = ["JTBg-wfok_M", "CqQ7h5nGqjs", "CqQ7h5nGqjs", "CqQ7h5nGqjs"];
+  var videoIds = ["JTBg-wfok_M", "nc9jGVYOB-M", "CqQ7h5nGqjs", "CqQ7h5nGqjs"];
 
   // Add event listeners to each image element
   image2.addEventListener("click", function () {
@@ -243,9 +242,6 @@ try {
     lity('//www.youtube.com/watch?v=' + videoIds[2]);
   });
 
-  image5.addEventListener("click", function () {
-    lity('//www.youtube.com/watch?v=' + videoIds[3]);
-  });
 } catch (w) { }
 // Get all <a> elements on the page
 const linksYt = document.getElementsByTagName("a");
