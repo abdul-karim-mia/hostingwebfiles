@@ -4,7 +4,7 @@ Hello, I'm Abdul Karim Mia, and I specialize in Photoshop and Illustrator automa
 
 On my [portfolio website](https://www.abdulkarimmia.com/), you can find some of the scripts and plugins that I have developed. I am committed to staying up-to-date with the latest industry trends and technologies, and my passion for my work is evident in the high-quality products that I produce.
 
-Aside from design and development, I also love to play cricket and computer games, and I enjoy traveling to new places. If you have a design or development project in mind, feel free to [contact me](https://www.abdulkarimmia.com/contact).
+Aside from design and development, I also love to play cricket and computer games, and I enjoy traveling to new places. If you have a design or development project in mind, feel free to [contact me](https://www.abdulkarimmia.com/#contact).
 
 ## Some of My Work
 
