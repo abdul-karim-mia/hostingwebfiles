@@ -1,0 +1,20 @@
+<svg version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+                        <style>.st0 {
+                            fill: none;
+                            stroke: black;
+                            stroke-width: 35;
+                            stroke-miterlimit: 10;
+                            transition: stroke .3s ease-in;
+                        }</style>
+                        <line class="st0" x1="187" y1="187" x2="58.8" y2="58.8" />
+                        <line class="st0" x1="58.8" y1="187" x2="187" y2="58.8" />
+                        <line class="st0" x1="642.2" y1="187" x2="514" y2="58.8" />
+                        <line class="st0" x1="514" y1="187" x2="642.2" y2="58.8" />
+                        <line class="st0" x1="187" y1="642.2" x2="58.8" y2="514" />
+                        <line class="st0" x1="58.8" y1="642.2" x2="187" y2="514" />
+                        <line class="st0" x1="642.2" y1="642.2" x2="514" y2="514" />
+                        <line class="st0" x1="514" y1="642.2" x2="642.2" y2="514" />
+                        <rect x="233.3" y="233.3" class="st0" width="233.3" height="233.3" />
+                    </svg>

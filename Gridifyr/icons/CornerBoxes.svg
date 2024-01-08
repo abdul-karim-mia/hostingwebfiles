@@ -1,0 +1,16 @@
+<svg version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+                        <style>.st0 {
+                            fill: none;
+                            stroke: black;
+                            stroke-width: 35;
+                            stroke-miterlimit: 10;
+                            transition: stroke .3s ease-in;
+                        }</style>
+                        <rect x="233.3" y="233.3" class="st0" width="233.3" height="233.3" />
+                        <rect x="62.5" y="470.8" class="st0" width="170.8" height="170.8" />
+                        <rect x="466.7" y="466.7" class="st0" width="174.9" height="174.9" />
+                        <rect x="62.5" y="62.5" class="st0" width="170.8" height="170.8" />
+                        <rect x="466.7" y="58.4" class="st0" width="174.9" height="174.9" />
+                    </svg>

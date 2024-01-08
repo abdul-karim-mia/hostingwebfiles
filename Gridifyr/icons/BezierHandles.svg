@@ -1,0 +1,22 @@
+<svg version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+                        <style>.st0 {
+                            fill: none;
+                            stroke: black;
+                            stroke-width: 35;
+                            stroke-miterlimit: 10;
+                            transition: stroke .3s ease-in;
+                        }</style>
+                        <path class="st0" d="M108.9,549.2c18.8-98.5,96.4-176,194.8-194.8" />
+                        <path class="st0" d="M396.2,345.7c98.5-18.8,176-96.4,194.8-194.8" />
+                        <line class="st1" x1="303.8" y1="350" x2="133.7" y2="350" />
+                        <line class="st1" x1="566.2" y1="350" x2="396.2" y2="350" />
+                        <path class="st0" d="M87.5,396.2L87.5,396.2c-25.5,0-46.2-20.7-46.2-46.2v0c0-25.5,20.7-46.2,46.2-46.2h0
+c25.5,0,46.2,20.7,46.2,46.2v0C133.7,375.5,113,396.2,87.5,396.2z" />
+                        <path class="st0" d="M612.5,396.2L612.5,396.2c-25.5,0-46.2-20.7-46.2-46.2v0c0-25.5,20.7-46.2,46.2-46.2h0
+c25.5,0,46.2,20.7,46.2,46.2v0C658.7,375.5,638,396.2,612.5,396.2z" />
+                        <rect x="58.3" y="549.2" class="st0" width="92.5" height="92.5" />
+                        <rect x="303.8" y="303.8" class="st0" width="92.5" height="92.5" />
+                        <rect x="549.2" y="58.3" class="st0" width="92.5" height="92.5" />
+                    </svg>
